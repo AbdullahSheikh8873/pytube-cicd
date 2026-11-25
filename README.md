@@ -66,7 +66,7 @@ Jenkins · AWS EC2 · GitHub · Linux · Python
 
 **Jenkins master and agent on AWS EC2**
 
-[AWS EC2 instances](aws-ec2.jpeg)
+![AWS EC2 instances](aws-ec2.jpeg)
 
 ## Security Notes
 
