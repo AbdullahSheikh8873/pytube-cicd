@@ -4,10 +4,6 @@ A CI/CD pipeline built with Jenkins (master + agent) on AWS EC2 for a Python-bas
 
 > The PyTube application is a sample project used only as the workload for this pipeline. This repository documents the CI/CD setup and deployment that I built on AWS.
 
-## Demo
-
-▶ Pipeline demo video: `<paste YouTube unlisted / Google Drive link here>`
-
 ## Overview
 
 Every build pulls the source code from GitHub, builds and tests it on a Jenkins agent, and deploys the application. Everything runs on AWS EC2 in the Singapore region (`ap-southeast-1`).
@@ -62,15 +58,15 @@ Jenkins · AWS EC2 · GitHub · Linux · Python
 
 **Jenkins pipeline: all stages successful**
 
-![Jenkins pipeline](docs/jenkins-pipeline.png)
+![Jenkins pipeline](jenkins-pipeline.jpeg)
 
 **Application running after deployment**
 
-![PyTube app](docs/pytube-app.png)
+![PyTube app](pytube-app.jpeg)
 
 **Jenkins master and agent on AWS EC2**
 
-![AWS EC2 instances](docs/ec2-instances.png)
+[AWS EC2 instances](aws-ec2.jpeg)
 
 ## Security Notes
 
